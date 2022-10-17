@@ -1,0 +1,95 @@
+*  {
+	margin: 0;
+	padding: 0;
+   }
+
+body {
+    background: url(img/background.jpg);
+    background-position: center;
+    color: wheat;
+    }
+
+.first_section {
+    width: 434px;
+    margin: 131px auto 222px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 12px;
+    font-family: cursive;
+}
+
+.first_col {
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    border: 1 px soli rgba(255,255,255,.3);
+    background-color: #00000038;
+    box-shadow: 2px 15px 10px rgb(0 0 0 / 30%);
+    color: #fff;
+}
+
+form#Register {
+    margin: 40px;
+}
+
+label {
+    font-size: 16px;
+    font-family: cursive;
+}
+
+
+::-webkit-input-placeholder { /* Edge */
+  font-family: cursive;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: cursive;
+}
+
+::placeholder {
+	color: white;
+  font-family: cursive;
+}
+
+input#submit {
+    font-family: cursive;
+}
+
+input#submit {
+    height: 39px;
+    font-family: cursive;
+    background-color: rgb(209 238 247 / 74%);
+    width: 115px;
+    font-size: 20px;
+    border-radius: 15px 3px;
+    color: beige;
+}		
+
+.submit_but{
+		text-align: center;
+
+}
+
+.center_class {
+	text-align: center;
+}
+.input_box input {
+    width: 100%;
+    background: #ddd;
+    padding: 10px;
+    border: transparent;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #00000059;
+    border: 1px solid white;
+    color: wheat;
+}
+
+.input_box_red {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+}
